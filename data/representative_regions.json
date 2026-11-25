@@ -1,0 +1,44 @@
+{
+  "SiO2": {
+    "file": "data/regions/ccd80_roi_r71708_c146216_2km.npz",
+    "row": 71708,
+    "column": 146216,
+    "candidate_id": "8d01012846a77afe0f94",
+    "oxide_column": 0
+  },
+  "Al2O3": {
+    "file": "data/regions/ccd80_roi_r38108_c170272_2km.npz",
+    "row": 38108,
+    "column": 170272,
+    "candidate_id": "1c56a75f301b2049ded2",
+    "oxide_column": 1
+  },
+  "CaO": {
+    "file": "data/regions/ccd80_roi_r38108_c170272_2km.npz",
+    "row": 38108,
+    "column": 170272,
+    "candidate_id": "d26e4cb9d9c13f69875d",
+    "oxide_column": 4
+  },
+  "FeO": {
+    "file": "data/regions/ccd80_roi_r32540_c62312_2km.npz",
+    "row": 32540,
+    "column": 62312,
+    "candidate_id": "0aca8b21bcf7c2fdfa6d",
+    "oxide_column": 2
+  },
+  "MgO": {
+    "file": "data/regions/ccd80_roi_r23324_c80912_2km.npz",
+    "row": 23324,
+    "column": 80912,
+    "candidate_id": "7ef21516f397b1eabfad",
+    "oxide_column": 3
+  },
+  "TiO2": {
+    "file": "data/regions/ccd80_roi_r10972_c14864_2km.npz",
+    "row": 10972,
+    "column": 14864,
+    "candidate_id": "2675a4d7b58c5741b6b3",
+    "oxide_column": 5
+  }
+}

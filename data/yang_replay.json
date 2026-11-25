@@ -1,0 +1,932 @@
+[
+  {
+    "oxide": "SiO2",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 39.30949020385742
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 45.52214050292969
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 45.45246505737305
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 46.467185974121094
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 46.74689483642578
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 45.014076232910156
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 47.34457015991211
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 47.169639587402344
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 46.0756950378418
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 46.178524017333984
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 43.64570617675781
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 43.698387145996094
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 43.56043243408203
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 43.83652877807617
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 41.726158142089844
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 41.711727142333984
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 43.70060348510742
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 42.970603942871094
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 42.16460418701172
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 42.154212951660156
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 43.201812744140625
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 47.04344940185547
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 47.06734085083008
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 43.73295974731445
+  },
+  {
+    "oxide": "SiO2",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 40.85038757324219
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 10.422079086303711
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 13.435142517089844
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 13.509060859680176
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 14.024791717529297
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 13.508940696716309
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.651758193969727
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1772_1776_1290_1294",
+    "site": "Apollo15",
+    "prediction_wt_pct": 13.428922653198242
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 17.023290634155273
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 16.03228759765625
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.680901527404785
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.490885734558105
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 28.40964126586914
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 27.866069793701172
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 29.019817352294922
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 26.67752456665039
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 46.21512985229492
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 46.40229034423828
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 27.828739166259766
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.236406326293945
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.033452987670898
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.035908699035645
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.139322280883789
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 22.55910873413086
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 22.370128631591797
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 12.339286804199219
+  },
+  {
+    "oxide": "Al2O3",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 11.011011123657227
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 20.519084930419922
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 16.750595092773438
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 16.6181697845459
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 15.667487144470215
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 15.723060607910156
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 24.427326202392578
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1772_1776_1290_1294",
+    "site": "Apollo15",
+    "prediction_wt_pct": 15.828556060791016
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 11.382051467895508
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 12.498019218444824
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 21.641094207763672
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 24.59219741821289
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 2.71624755859375
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 3.089653968811035
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 2.2270030975341797
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 3.8763914108276367
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 3.114591598510742
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 15.550162315368652
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 16.691850662231445
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 16.728784561157227
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 15.226408958435059
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.146055698394775
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.18572998046875
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 16.632226943969727
+  },
+  {
+    "oxide": "FeO",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 21.458602905273438
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 7.9907145500183105
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 10.939034461975098
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 11.044342041015625
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 10.81284236907959
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 10.880279541015625
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 6.459830284118652
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1772_1776_1290_1294",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.233978271484375
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 9.134559631347656
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 9.327652931213379
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 7.0392327308654785
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 6.223964691162109
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 10.49401569366455
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 10.480669975280762
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 10.552111625671387
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 10.450448036193848
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 11.655608177185059
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 11.670370101928711
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 10.480681419372559
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 8.156278610229492
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.6337127685546875
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.635396957397461
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 8.69377326965332
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.6483683586120605
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 7.719268798828125
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 9.284866333007812
+  },
+  {
+    "oxide": "MgO",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 6.567167282104492
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 10.896475791931152
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 11.000128746032715
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 10.960123062133789
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 10.181811332702637
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 10.431805610656738
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.54806137084961
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1772_1776_1290_1294",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.392871856689453
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 11.063604354858398
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.931052207946777
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.418634414672852
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 10.498345375061035
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 16.248239517211914
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 16.03342628479004
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 16.528289794921875
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 15.531403541564941
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 24.47182846069336
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 24.552383422851562
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 16.02157974243164
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 11.581986427307129
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 11.79802417755127
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 11.79928207397461
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 11.337499618530273
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.764491081237793
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 13.683067321777344
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 10.870601654052734
+  },
+  {
+    "oxide": "CaO",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 11.301237106323242
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T5_665_669_967_970",
+    "site": "Apollo11",
+    "prediction_wt_pct": 9.582779884338379
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T6_24_27_1182_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 2.076284885406494
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T6_24_28_1181_1185",
+    "site": "Apollo12",
+    "prediction_wt_pct": 2.1244306564331055
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T1_1321_1325_1080_1083",
+    "site": "Apollo14",
+    "prediction_wt_pct": 1.758415699005127
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T1_1318_1321_1072_1075",
+    "site": "Apollo14",
+    "prediction_wt_pct": 1.6636995077133179
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1778_1781_1170_1174",
+    "site": "Apollo15",
+    "prediction_wt_pct": 1.8403595685958862
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1772_1776_1290_1294",
+    "site": "Apollo15",
+    "prediction_wt_pct": 2.058359384536743
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1985_1988_1241_1244",
+    "site": "Apollo15",
+    "prediction_wt_pct": 1.7640029191970825
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1985_1989_1242_1246",
+    "site": "Apollo15",
+    "prediction_wt_pct": 1.7878624200820923
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1779_1783_1150_1154",
+    "site": "Apollo15",
+    "prediction_wt_pct": 2.1422653198242188
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T2_1779_1782_1153_1157",
+    "site": "Apollo15",
+    "prediction_wt_pct": 1.224858045578003
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1995_1998_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1997_2001_925_928",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1992_1995_969_972",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T7_206_209_1049_1052",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1695_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1694_1698_1010_1013",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T3_1997_2000_926_929",
+    "site": "Apollo16",
+    "prediction_wt_pct": 0.0
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1650_1653_1567_1570",
+    "site": "Apollo17",
+    "prediction_wt_pct": 5.517621040344238
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1724_1728_1609_1612",
+    "site": "Apollo17",
+    "prediction_wt_pct": 6.437694072723389
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1724_1728_1610_1614",
+    "site": "Apollo17",
+    "prediction_wt_pct": 6.454757213592529
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1572_1575_1705_1709",
+    "site": "Apollo17",
+    "prediction_wt_pct": 5.551915168762207
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1845_1848_1082_1086",
+    "site": "Apollo17",
+    "prediction_wt_pct": 1.293050765991211
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T4_1821_1824_1122_1126",
+    "site": "Apollo17",
+    "prediction_wt_pct": 1.3035414218902588
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T8_1928_1932_169_174",
+    "site": "Change5",
+    "prediction_wt_pct": 5.14672327041626
+  },
+  {
+    "oxide": "TiO2",
+    "area_id": "T9_1306_1309_28_33",
+    "site": "Change6",
+    "prediction_wt_pct": 7.379216194152832
+  }
+]

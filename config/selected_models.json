@@ -1,0 +1,431 @@
+[
+  {
+    "oxide": "SiO2",
+    "selection_goal": "MAE",
+    "candidate": "639f65f78bf560aef49b09f5113a2627ac3e283727e3fd3c3b1b0ebf059f4102",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "unified_fixed_six_v114",
+      "stages": [
+        {
+          "backend": "basic",
+          "family": "RankNet",
+          "input": "F4_250|RatioMSC16|M1",
+          "mode": "direct",
+          "params": {
+            "max_iter": 150,
+            "penalty": 0.1,
+            "rank_weight": 1.0,
+            "width": 8
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "0800f63e905635b34249587f4c9cd6cb193d61031ca7634c728347785819fcef"
+  },
+  {
+    "oxide": "Al2O3",
+    "selection_goal": "MAE",
+    "candidate": "d718ed33637531c2629c47b1c906783fff1a73442b28404504e3c596d095a9ce",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankGP",
+          "input": "Sat7",
+          "mode": "direct",
+          "params": {
+            "factor": 1,
+            "lambda_rank": 4,
+            "pair_filter": "ALL",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        },
+        {
+          "family": "RidgeLocalBlend",
+          "input": "C_1",
+          "mode": "residual",
+          "params": {
+            "gate": "half"
+          },
+          "seed": 42
+        },
+        {
+          "family": "JointRankRidge",
+          "input": "MI_M3_CLASS3",
+          "mode": "direct",
+          "params": {
+            "factor": 3,
+            "lambda_rank": 0.1,
+            "pair_filter": "EVID",
+            "pair_policy": "D2"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "7094e8c5b619a0af8d62b2fb7157b35b9d9d27018b706bd5d359a7887f1bf37e"
+  },
+  {
+    "oxide": "FeO",
+    "selection_goal": "MAE",
+    "candidate": "8ae76d54c93ef589c3d7119bf6acd5e93367b72143ec640e03a1247fd48b407a",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "unified_fixed_six_v151",
+      "stages": [
+        {
+          "backend": "historical",
+          "family": "BayesianRidge",
+          "input": "F0|LogDiff8|M2",
+          "mode": "direct",
+          "params": {},
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "aa91f69918cc627d5e1659c604ad4cbdcb279d698bfc916b143e43281037296e"
+  },
+  {
+    "oxide": "MgO",
+    "selection_goal": "MAE",
+    "candidate": "2ac4627a7aee35d980a6d6628525576dd392f156a324bf2424ed2153e6dcab18",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankGP",
+          "input": "Sat7",
+          "mode": "direct",
+          "params": {
+            "factor": 3,
+            "lambda_rank": 1,
+            "pair_filter": "GAP_EVID",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        },
+        {
+          "family": "RidgeLocalBlend",
+          "input": "C_1",
+          "mode": "residual",
+          "params": {
+            "gate": "range"
+          },
+          "seed": 42
+        },
+        {
+          "family": "JointRankRidge",
+          "input": "CLASS3",
+          "mode": "direct",
+          "params": {
+            "factor": 3,
+            "lambda_rank": 4,
+            "pair_filter": "EVID",
+            "pair_policy": "D1"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "25bfb23a4f1f42e6ac4ce15f1dceda1d91ba5f9cd82be6b8ee0fb8a146a0a668"
+  },
+  {
+    "oxide": "CaO",
+    "selection_goal": "MAE",
+    "candidate": "8326301138dc7a0f06a7a21e520efe4f3996db13b5f90ce50c2a892dc45319de",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankGP",
+          "input": "Raw8",
+          "mode": "direct",
+          "params": {
+            "factor": 1,
+            "lambda_rank": 4,
+            "pair_filter": "ALL",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        },
+        {
+          "family": "RidgeLocalBlend",
+          "input": "CLASS6",
+          "mode": "residual",
+          "params": {
+            "gate": "negative"
+          },
+          "seed": 42
+        },
+        {
+          "family": "JointRankRidge",
+          "input": "MI_M3_CLASS6",
+          "mode": "direct",
+          "params": {
+            "factor": 3,
+            "lambda_rank": 1,
+            "pair_filter": "EVID",
+            "pair_policy": "D2"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "352ab4a1feb73da49866544f382ef6f24e797c5fd4c4278bed08e768533cdd36"
+  },
+  {
+    "oxide": "TiO2",
+    "selection_goal": "MAE",
+    "candidate": "7a49277c736e67417cfa5d78c6d254b0caebbe21a2ff190d1e18df34a4203cfa",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankMLP",
+          "input": "MI_CLASS2",
+          "mode": "direct",
+          "params": {
+            "factor": 1,
+            "lambda_rank": 0,
+            "pair_filter": "ALL",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "84f84f92d466355ad136d1dcaa55e93207e892f480d46e2536c10089c8ab3c10"
+  },
+  {
+    "oxide": "SiO2",
+    "selection_goal": "RANK",
+    "candidate": "25bccafa07f1b228f3efccb45e07ef49e4cade57bd4ef2c203d136708739d89d",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "unified_fixed_six_v114",
+      "stages": [
+        {
+          "backend": "basic",
+          "family": "ExtraTrees",
+          "input": "MI_WAC3",
+          "mode": "direct",
+          "params": {
+            "max_depth": 5,
+            "min_samples_leaf": 2,
+            "n_estimators": 80
+          },
+          "seed": 42
+        },
+        {
+          "backend": "historical",
+          "family": "JointRankRidge",
+          "input": "CLASS_ONLY3",
+          "mode": "direct",
+          "params": {
+            "factor": 0.3,
+            "lambda_rank": 4,
+            "pair_filter": "EVID",
+            "pair_policy": "D2"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "1ba15062354fdc4511f11191c7db67df1ed3d404021fbc6be6908d5ea9463edc"
+  },
+  {
+    "oxide": "Al2O3",
+    "selection_goal": "RANK",
+    "candidate": "e2a80bf7288c9e807a95f40f8d9bc4e09941a5321df4d7706d602e3037c8696d",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankGP",
+          "input": "Sqrt8",
+          "mode": "direct",
+          "params": {
+            "factor": 0.3,
+            "lambda_rank": 4,
+            "pair_filter": "EVID",
+            "pair_policy": "D1"
+          },
+          "seed": 42
+        },
+        {
+          "family": "RidgeLocalBlend",
+          "input": "C_025",
+          "mode": "direct",
+          "params": {
+            "gate": "negative"
+          },
+          "seed": 42
+        },
+        {
+          "family": "JointRankRidge",
+          "input": "MI_M3_CLASS3",
+          "mode": "direct",
+          "params": {
+            "factor": 1,
+            "lambda_rank": 1,
+            "pair_filter": "ALL",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "b6aa9b793831cdd5e0098ebc348354cdb19e96cc70bede075f1df0e61a5c6182"
+  },
+  {
+    "oxide": "FeO",
+    "selection_goal": "RANK",
+    "candidate": "e9ebcdce16a71b37cdce9683cc022cdf98476963d7bd2cb49e895d7efb70c040",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "sequential_residual_v1",
+      "stages": [
+        {
+          "family": "ElasticNet",
+          "input": "M3",
+          "mode": "residual",
+          "params": {
+            "alpha": 0.05,
+            "l1_ratio": 0.5,
+            "max_iter": 5000
+          },
+          "seed": 42
+        },
+        {
+          "family": "BayesianRidge",
+          "input": "MSC8",
+          "mode": "residual",
+          "params": {},
+          "seed": 42
+        }
+      ]
+    },
+    "model_sha256": "7c904a4066d708d9e927902fea3a83f7c4eab278be07f3e783ec11820a7d00a1"
+  },
+  {
+    "oxide": "MgO",
+    "selection_goal": "RANK",
+    "candidate": "ea0a0f96d5fe9fc69d8c97beb9025c53a34c06d4b85752c874af70e3d85ee2f2",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "RBFRankSVM",
+          "input": "COORD2",
+          "mode": "direct",
+          "params": {
+            "pair_filter": "ALL",
+            "pair_policy": "D2",
+            "strength": 1
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "6894004bf1e56e7e6335bcf083cca347302e87a57c9759fe31b0a377d6baa3de"
+  },
+  {
+    "oxide": "CaO",
+    "selection_goal": "RANK",
+    "candidate": "4c0f61a5a5348329177899b714be34b2e59059d43cd770c185022cdf964068b0",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "JointRankGP",
+          "input": "Raw8",
+          "mode": "direct",
+          "params": {
+            "factor": 1,
+            "lambda_rank": 4,
+            "pair_filter": "ALL",
+            "pair_policy": "B"
+          },
+          "seed": 42
+        },
+        {
+          "family": "RidgeLocalBlend",
+          "input": "C_025",
+          "mode": "residual",
+          "params": {
+            "gate": "half"
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "3e0ea9425def37849603fdbf242187d809ea24c5e111d0125269195ee16441cc"
+  },
+  {
+    "oxide": "TiO2",
+    "selection_goal": "RANK",
+    "candidate": "511807fbc002b0e432cb6ff01b2f64a715a50e334af012bf30b8c40310e9b3e4",
+    "recipe": {
+      "postprocess": "max(0,prediction)",
+      "semantics": "fixed_six_crossfit_v104",
+      "stages": [
+        {
+          "family": "BayesianRidge",
+          "input": "F0R_62",
+          "mode": "direct",
+          "params": {},
+          "seed": 42
+        },
+        {
+          "family": "Ridge",
+          "input": "CLASS6",
+          "mode": "residual",
+          "params": {
+            "alpha": 10
+          },
+          "seed": 42
+        },
+        {
+          "family": "BoundedMLP",
+          "input": "MI_M3",
+          "mode": "direct",
+          "params": {
+            "epochs": 300,
+            "lr": 0.003,
+            "seeds": [
+              42,
+              43,
+              44,
+              45,
+              46
+            ],
+            "weight_decay": 0.01
+          },
+          "seed": 42
+        }
+      ],
+      "weight_policy": "equal_62m_area"
+    },
+    "model_sha256": "0285119c50424fc351a4000086deeb1c6a01eda82ce6c40cf0ad78195188eaa5"
+  }
+]

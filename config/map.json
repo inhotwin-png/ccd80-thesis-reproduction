@@ -1,0 +1,59 @@
+{
+  "id": "243ccd808be040a2a9a2ca1ea44b639e",
+  "created": "2026-11-10T16:27:03.565404+00:00",
+  "grid": {
+    "width": 176072,
+    "height": 88036,
+    "step_deg": 0.0020446289454420998,
+    "target_support_m": 62,
+    "coarse_stride": 8,
+    "scout_stride": 2
+  },
+  "extent": [
+    -180,
+    180,
+    -90,
+    90
+  ],
+  "parameters": {
+    "coarse_stride": 8,
+    "scout_stride": 2,
+    "initial_candidates": 2000,
+    "regional_candidates": 400,
+    "regional_count": 200,
+    "detail_candidates": 200,
+    "review_candidates": 20,
+    "quantile": 0.99,
+    "separation_m": 1000.0,
+    "scout_radius_m": 4000.0,
+    "detail_radius_m": 2000.0,
+    "expansion_radii_m": [
+      4000.0,
+      8000.0
+    ],
+    "ring_width_m": 248.0,
+    "audit_count": 1000,
+    "audit_side": 32,
+    "audit_seed": 4966201,
+    "scout_budget": 64000000,
+    "detail_budget": 16000000
+  },
+  "sampling": "Original 62m pixel targets; unsampled locations remain unknown. East-west spacing decreases with latitude.",
+  "scope": "SIX_OXIDE_PREDICTED_REGION_SEARCH_NOT_GEOLOGICAL_VALIDATION",
+  "heuristics": "Candidate limits, quantile, geographical quotas and radii are starting settings, not established optima.",
+  "rank_policy144": {
+    "shortlist_multiplier": 2,
+    "abundance": "MAE model only",
+    "selection": "High MAE predicted-abundance shortlist, then frozen RANK-model order; no blending of concentrations"
+  },
+  "mi_fallback147": {
+    "version": 151,
+    "trigger": "V3 prediction > 100 wt% or required V3 input/prediction unavailable",
+    "resolved": "use finite V2 prediction <= 100",
+    "unresolved": "use the finite prediction closest to 100; ties retain V3",
+    "unavailable": "retain V3",
+    "scope": "only triggered oxide; unchanged frozen model and CLASS; existing model zero floor retained",
+    "accuracy": "fallback is not independently validated chemical accuracy",
+    "missing": "use finite V2 prediction if available; otherwise remain unavailable"
+  }
+}

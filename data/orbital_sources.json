@@ -1,0 +1,333 @@
+{
+  "schema": 127,
+  "class_maps": [
+    {
+      "duration": "296s",
+      "ratio": "Mg_Al",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Mg_Al_combined.tiff",
+      "sha256": "1519a7cb6c23e2a216e65d24f529a11cbe7e2347e95bfc65e913f1863a551295",
+      "bytes": 16783755
+    },
+    {
+      "duration": "296s",
+      "ratio": "Al_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Al_Si_combined.tiff",
+      "sha256": "35be38135593dae23ad825ab14a909759edc72c8731b0a06eaf6ed7e8c85be2e",
+      "bytes": 16783755
+    },
+    {
+      "duration": "296s",
+      "ratio": "Mg_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Mg_Si_combined.tiff",
+      "sha256": "8f815f8e5e4f0054797ca1931794ba33b64294a89953fa975a3e28ead0b28d35",
+      "bytes": 16783755
+    },
+    {
+      "duration": "296s",
+      "ratio": "FeL_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/FeL_Si_combined.tiff",
+      "sha256": "61d5921edf620f5d73699c28457da370fb261ab916e91cff9518ee375a1d0294",
+      "bytes": 16783755
+    },
+    {
+      "duration": "296s",
+      "ratio": "CaKa_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/CaKa_Si_combined.tiff",
+      "sha256": "2b5c894f79cede876dc05b4f1ef989ae75857b53ef2b266529d12e027c395e2c",
+      "bytes": 16783755
+    },
+    {
+      "duration": "296s",
+      "ratio": "O_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/O_Si_combined.tiff",
+      "sha256": "61c16a90a3e76b1cecb30ca1789b023a5dcaca71d8c63310c9a7e0f34abcdc88",
+      "bytes": 16783755
+    },
+    {
+      "duration": "96s",
+      "ratio": "Mg_Al",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Mg_Al_combined.tiff",
+      "sha256": "30021c716096aadb197533121a20849836caa62fb9ae543b65906153e60cd3da",
+      "bytes": 16783755
+    },
+    {
+      "duration": "96s",
+      "ratio": "Al_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Al_Si_combined.tiff",
+      "sha256": "451ad1684c3de315d60131601f925e662ac227a9d6413e805b59fce60ba0c4a6",
+      "bytes": 16783755
+    },
+    {
+      "duration": "96s",
+      "ratio": "Mg_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Mg_Si_combined.tiff",
+      "sha256": "dcec4b4b3b56d5d3f15834b1100e2e17665aea5ec97f0b290d8ebc6145d9b76a",
+      "bytes": 16783755
+    },
+    {
+      "duration": "96s",
+      "ratio": "FeL_Si",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/FeL_Si_combined.tiff",
+      "sha256": "a28fe57af6625b47889aa831e0d6853ff673c022c9eb0a0fa2985bce828d94c4",
+      "bytes": 16783755
+    }
+  ],
+  "mi_tiles": {
+    "MI_MAP_03_S03E342S04E343SC": {
+      "sha256": "b56c2ef6cff70c4fe66a3cd8e2021f595d8d853c5a6dff6ba51c6fa49026b3d3",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon342/data/MI_MAP_03_S03E342S04E343SC.img"
+    },
+    "MI_MAP_03_N27E003N26E004SC": {
+      "sha256": "af7ac689e854881c79dd3ccab5d34de34fd22d22696c72acff19f9cdedb3558a",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon003/data/MI_MAP_03_N27E003N26E004SC.img"
+    },
+    "MI_MAP_03_N26E003N25E004SC": {
+      "sha256": "d3aeaebdc8dd0545a9aa3b9077b832f2313975eed88b1569bc31088e3395cfc1",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon003/data/MI_MAP_03_N26E003N25E004SC.img"
+    },
+    "MI_MAP_03_S08E015S09E016SC": {
+      "sha256": "e21e102850172513b2c9ebd5cae18d0bdd75f16c5f9400033f640bacc0750b17",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon015/data/MI_MAP_03_S08E015S09E016SC.img"
+    },
+    "MI_MAP_03_S09E015S10E016SC": {
+      "sha256": "0faf96698fdb25bd66c5fe25a6c35d7bae0e856da8b3f4bc0b93bc92a3dd93d9",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon015/data/MI_MAP_03_S09E015S10E016SC.img"
+    },
+    "MI_MAP_03_N21E030N20E031SC": {
+      "sha256": "03aa2f54bf4c834b87feb41d6ca370e05a65cf80abc056c059be58864f1800fa",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon030/data/MI_MAP_03_N21E030N20E031SC.img"
+    },
+    "MI_MAP_03_N01E023N00E024SC": {
+      "sha256": "6cdff063f3241b83169418cfb81b7f2b1e480d20b87fcfb396842beb2d9c4870",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon023/data/MI_MAP_03_N01E023N00E024SC.img"
+    },
+    "MI_MAP_03_S03E336S04E337SC": {
+      "sha256": "92eb17a32869b1cf03763ebde755c5e02e7b84be46e8b10a1ce76c4d93d1fa7b",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon336/data/MI_MAP_03_S03E336S04E337SC.img"
+    },
+    "MI_MAP_03_S02E336S03E337SC": {
+      "sha256": "bc8d5733e4c744be02c72547e1d801ca79b0dbeabe7c165ed6674f6a78b78ba6",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon336/data/MI_MAP_03_S02E336S03E337SC.img"
+    },
+    "MI_MAP_03_N20E030N19E031SC": {
+      "sha256": "dc1d94169dcf53d5e75979def5045568ddce64b72f4e938934aa69e2613277e8",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon030/data/MI_MAP_03_N20E030N19E031SC.img"
+    },
+    "MI_MAP_03_N44E308N43E309SC": {
+      "sha256": "eea66434d6a93e08793ddaf1152aab6a867c4d8727322c4a3d26a5696851dcad",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon308/data/MI_MAP_03_N44E308N43E309SC.img"
+    },
+    "MI_MAP_03_N43E307N42E308SC": {
+      "sha256": "64377a83d53965405cc274117a8b907c4c5040cfe6d8f45ae8b16de72b015360",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon307/data/MI_MAP_03_N43E307N42E308SC.img"
+    },
+    "MI_MAP_03_N43E308N42E309SC": {
+      "sha256": "d3f1ce5ce4c93984552730765d8d3b87627a213e60fc340e06bc258b4ba2b09f",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon308/data/MI_MAP_03_N43E308N42E309SC.img"
+    },
+    "MI_MAP_03_N44E307N43E308SC": {
+      "sha256": "6aee1d8f061de73737034c8554c99f542d12efef48b62d4feaa375ec958a195d",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon307/data/MI_MAP_03_N44E307N43E308SC.img"
+    },
+    "MI_MAP_03_S41E206S42E207SC": {
+      "sha256": "7dbce1c5d99d8bda0ce726196c15f353f25fe0d4b37efbb6e1ed008d51ea2db9",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon206/data/MI_MAP_03_S41E206S42E207SC.img"
+    },
+    "MI_MAP_03_S41E205S42E206SC": {
+      "sha256": "31fe578c006483a93a69285cee97696efd6042020a7ed510072b393d3683298d",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-mi-5-map-v3.0/lon205/data/MI_MAP_03_S41E205S42E206SC.img"
+    },
+    "MI_MAP_03_N20E029N19E030SC": {
+      "sha256": "4eb40661498cd47703339153807696c0faf0e9289758e1632d2f447934ec6af1"
+    },
+    "MI_MAP_03_N21E029N20E030SC": {
+      "sha256": "8aeeea75eae08349d49fd71f8f8353e005d75634dbe3b41cf91771f381b67ed0"
+    },
+    "MI_MAP_03_N26E002N25E003SC": {
+      "sha256": "a3bb7aaa1b9c65febc586d8d77d7ea13119dbd700571f4b361b841bd04fbb8dd"
+    },
+    "MI_MAP_03_N27E002N26E003SC": {
+      "sha256": "6f72fc0f6366f5f6c117827e76338aaae33acbc4ff70d1dc3b8f8f80b37f2055"
+    },
+    "MI_MAP_03_S01E335S02E336SC": {
+      "sha256": "4899efd790ff74dab80aca10205974ff651a3fc2ce405c80bd66e69b5dd0507c"
+    },
+    "MI_MAP_03_S01E336S02E337SC": {
+      "sha256": "050b421f7c2a945050c9917bc5cf16293a06dfa46d026cd3815d37d67a9daa99"
+    },
+    "MI_MAP_03_S02E335S03E336SC": {
+      "sha256": "b5ec307a23b2ad2797413ce6bc63fbffaa683692b9e7cdbc0b28df822db00a8f"
+    },
+    "MI_MAP_03_S02E337S03E338SC": {
+      "sha256": "28e9699858d20b81530ded0d1a107e3e05fc2b1d8742901943ad0b77b0579b2c"
+    },
+    "MI_MAP_03_S02E342S03E343SC": {
+      "sha256": "f5a1af71950d80cc7441d8a9d89f5a984d194f759f21fd9f7485ecd24d6518ee"
+    },
+    "MI_MAP_03_S02E343S03E344SC": {
+      "sha256": "ec7221f051abe63686b850208298c4a75ebfccdfa0ef47512e010fbc01b517cf"
+    },
+    "MI_MAP_03_S03E335S04E336SC": {
+      "sha256": "1d40641c4e04369f9a0e32b1a6df2cf9c75168727c9b2cd1755adc81c97a72b6"
+    },
+    "MI_MAP_03_S03E337S04E338SC": {
+      "sha256": "604694fde00f5f807ef90ee99e2196b4322faf6513d2d14011f80d3b8e9aa481"
+    },
+    "MI_MAP_03_S03E343S04E344SC": {
+      "sha256": "7be204633bc70d8649143f636d3a3fd8ecdace892cb3cdf28ba2f2053fd0ac31"
+    },
+    "MI_MAP_03_S04E335S05E336SC": {
+      "sha256": "077ed3742302afb14b2de4cbd8eeec25b5754a2132b15fd4ca2272b069342682"
+    },
+    "MI_MAP_03_S04E336S05E337SC": {
+      "sha256": "33f0a087961ee45f3a563ac6c9f4cbc8033cb85bd578a1d3aa4b6f055eac6713"
+    },
+    "MI_MAP_03_S04E342S05E343SC": {
+      "sha256": "6f301e87356373e6f90b1b4c15272af4279ec9f67ca34caf0b6c5f830e0f3e46"
+    },
+    "MI_MAP_03_S04E343S05E344SC": {
+      "sha256": "d54cc2b0970c72e0543c4ef2efa9ac2710757306dbbf28132b5a1a536b8c18a4"
+    },
+    "MI_MAP_03_S07E014S08E015SC": {
+      "sha256": "adb8134502c7d54d70d30e2240777aed79cd3ae60964d16b41ac1d9a3f1c79ce"
+    },
+    "MI_MAP_03_S07E015S08E016SC": {
+      "sha256": "d6d4dcfa19858f71688f85845c2a0add2a8da28899c980d1e440c4c231312196"
+    },
+    "MI_MAP_03_S08E014S09E015SC": {
+      "sha256": "4ae5df33269ac72d6d6d7808f08ed3be741c14e0eede1d48db00a16c3067cbb8"
+    },
+    "MI_MAP_03_S09E014S10E015SC": {
+      "sha256": "159bfa6cb05f39a0b697d75225e2b0aac014b8aaa93487506656083c67e5f16b"
+    },
+    "MI_MAP_03_S10E014S11E015SC": {
+      "sha256": "99b75b67d8352dc8afb1b94954e0e29f8cf65ffb292c8d80bdcd27ad8ad3eb93"
+    },
+    "MI_MAP_03_S10E015S11E016SC": {
+      "sha256": "1b754fa5dc382a2d992e7b01f7293ce5b9d5fda701ac6f40559f58ad33aa3952"
+    }
+  },
+  "context_tile_order": [
+    "MI_MAP_03_N43E307N42E308SC",
+    "MI_MAP_03_N43E308N42E309SC",
+    "MI_MAP_03_N44E307N43E308SC",
+    "MI_MAP_03_N44E308N43E309SC",
+    "MI_MAP_03_N27E003N26E004SC",
+    "MI_MAP_03_N21E030N20E031SC",
+    "MI_MAP_03_N01E023N00E024SC",
+    "MI_MAP_03_S03E336S04E337SC",
+    "MI_MAP_03_S02E336S03E337SC",
+    "MI_MAP_03_S03E342S04E343SC",
+    "MI_MAP_03_S08E015S09E016SC",
+    "MI_MAP_03_S09E015S10E016SC",
+    "MI_MAP_03_S41E205S42E206SC",
+    "MI_MAP_03_S41E206S42E207SC",
+    "MI_MAP_03_N00E056S01E057SC",
+    "MI_MAP_03_N04E056N03E057SC",
+    "MI_MAP_03_N13E062N12E063SC",
+    "MI_MAP_03_N20E029N19E030SC",
+    "MI_MAP_03_N20E030N19E031SC",
+    "MI_MAP_03_N21E029N20E030SC",
+    "MI_MAP_03_N26E002N25E003SC",
+    "MI_MAP_03_N26E003N25E004SC",
+    "MI_MAP_03_N27E002N26E003SC",
+    "MI_MAP_03_N45E340N44E341SC",
+    "MI_MAP_03_S01E335S02E336SC",
+    "MI_MAP_03_S01E336S02E337SC",
+    "MI_MAP_03_S02E335S03E336SC",
+    "MI_MAP_03_S02E337S03E338SC",
+    "MI_MAP_03_S02E342S03E343SC",
+    "MI_MAP_03_S02E343S03E344SC",
+    "MI_MAP_03_S03E335S04E336SC",
+    "MI_MAP_03_S03E337S04E338SC",
+    "MI_MAP_03_S03E343S04E344SC",
+    "MI_MAP_03_S04E335S05E336SC",
+    "MI_MAP_03_S04E336S05E337SC",
+    "MI_MAP_03_S04E342S05E343SC",
+    "MI_MAP_03_S04E343S05E344SC",
+    "MI_MAP_03_S07E014S08E015SC",
+    "MI_MAP_03_S07E015S08E016SC",
+    "MI_MAP_03_S08E014S09E015SC",
+    "MI_MAP_03_S09E014S10E015SC",
+    "MI_MAP_03_S10E014S11E015SC",
+    "MI_MAP_03_S10E015S11E016SC",
+    "MI_MAP_03_S69E032S70E033SC",
+    "MI_MAP_03_S07E335S08E336SC",
+    "MI_MAP_03_S06E335S07E336SC",
+    "MI_MAP_03_S05E335S06E336SC",
+    "MI_MAP_03_S07E336S08E337SC",
+    "MI_MAP_03_S06E336S07E337SC",
+    "MI_MAP_03_S05E336S06E337SC",
+    "MI_MAP_03_S07E337S08E338SC",
+    "MI_MAP_03_S06E337S07E338SC",
+    "MI_MAP_03_S05E337S06E338SC",
+    "MI_MAP_03_S04E337S05E338SC",
+    "MI_MAP_03_S07E338S08E339SC",
+    "MI_MAP_03_S06E338S07E339SC",
+    "MI_MAP_03_S05E338S06E339SC",
+    "MI_MAP_03_S04E338S05E339SC",
+    "MI_MAP_03_S03E338S04E339SC",
+    "MI_MAP_03_S02E338S03E339SC",
+    "MI_MAP_03_S07E339S08E340SC",
+    "MI_MAP_03_S06E339S07E340SC",
+    "MI_MAP_03_S05E339S06E340SC",
+    "MI_MAP_03_S04E339S05E340SC",
+    "MI_MAP_03_S03E339S04E340SC",
+    "MI_MAP_03_S02E339S03E340SC",
+    "MI_MAP_03_N23E000N22E001SC",
+    "MI_MAP_03_N24E000N23E001SC",
+    "MI_MAP_03_N25E000N24E001SC",
+    "MI_MAP_03_N26E000N25E001SC",
+    "MI_MAP_03_N27E000N26E001SC",
+    "MI_MAP_03_N28E000N27E001SC",
+    "MI_MAP_03_N23E001N22E002SC",
+    "MI_MAP_03_N24E001N23E002SC",
+    "MI_MAP_03_N25E001N24E002SC",
+    "MI_MAP_03_N26E001N25E002SC",
+    "MI_MAP_03_N27E001N26E002SC",
+    "MI_MAP_03_N28E001N27E002SC",
+    "MI_MAP_03_N23E002N22E003SC",
+    "MI_MAP_03_N24E002N23E003SC",
+    "MI_MAP_03_N25E002N24E003SC",
+    "MI_MAP_03_N28E002N27E003SC",
+    "MI_MAP_03_N23E003N22E004SC",
+    "MI_MAP_03_N24E003N23E004SC",
+    "MI_MAP_03_N25E003N24E004SC",
+    "MI_MAP_03_N28E003N27E004SC",
+    "MI_MAP_03_N23E004N22E005SC",
+    "MI_MAP_03_N24E004N23E005SC",
+    "MI_MAP_03_N25E004N24E005SC",
+    "MI_MAP_03_N26E004N25E005SC",
+    "MI_MAP_03_N27E004N26E005SC",
+    "MI_MAP_03_N28E004N27E005SC",
+    "MI_MAP_03_S08E335S09E336SC",
+    "MI_MAP_03_S08E336S09E337SC",
+    "MI_MAP_03_N29E003N28E004SC",
+    "MI_MAP_03_N29E004N28E005SC",
+    "MI_MAP_03_N30E003N29E004SC",
+    "MI_MAP_03_N30E004N29E005SC",
+    "MI_MAP_03_N00E023S01E024SC",
+    "MI_MAP_03_N00E024S01E025SC",
+    "MI_MAP_03_N01E024N00E025SC",
+    "MI_MAP_03_N02E023N01E024SC",
+    "MI_MAP_03_N02E024N01E025SC",
+    "MI_MAP_03_N19E029N18E030SC",
+    "MI_MAP_03_N19E030N18E031SC",
+    "MI_MAP_03_N22E030N21E031SC",
+    "MI_MAP_03_N42E307N41E308SC",
+    "MI_MAP_03_N42E308N41E309SC",
+    "MI_MAP_03_N45E307N44E308SC",
+    "MI_MAP_03_N45E308N44E309SC",
+    "MI_MAP_03_S43E206S44E207SC",
+    "MI_MAP_03_S42E205S43E206SC",
+    "MI_MAP_03_S42E206S43E207SC",
+    "MI_MAP_03_S40E205S41E206SC",
+    "MI_MAP_03_S40E206S41E207SC",
+    "MI_MAP_03_S04E341S05E342SC",
+    "MI_MAP_03_S03E341S04E342SC",
+    "MI_MAP_03_S02E341S03E342SC"
+  ],
+  "class_scope": "Published line-ratio map cells; not independently measured 62m chemistry",
+  "missing": "No imputation; oxide-specific no-data",
+  "source_manifest_sha256": "e69a01abc84920839caee5d86edb7afcf05f05abb157b9d20858fc8c13b2b23a"
+}

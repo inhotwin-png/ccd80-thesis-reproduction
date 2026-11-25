@@ -1,0 +1,21 @@
+{
+  "data_sha256": "6d6f7b7ec7c5b16727576e27631685a0a964f66cbab8e4b986084d85c6ae9dc6",
+  "architecture_git_commit": "359314658f8fc343a3fcbd56c0ae10b469d779a1",
+  "architecture_blob": "594ad492694722fda4314428e2d8c307f81188db",
+  "inputs": "MI Raw8 plus validated Fe and Ti angles for FeO and TiO2 only",
+  "validation": "8 outer LOLO splits; equal valid window weights; no independent CE6 fine-tuning",
+  "scalers": "population mean and standard deviation fitted to training windows only per fold for X and y",
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "wd": 0.0001,
+  "loss": "full-batch mean squared error",
+  "seed": 42,
+  "epochs": 100,
+  "optional_scheduler_early_stopping": false,
+  "clip": "none; unthresholded raw OOF",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.5",
+  "CPU_threads": 1,
+  "implementation_sha256": "5afb239b34af0f962d436b191933698820e9cfe4fa50303c1ac12282c0e6515b"
+}

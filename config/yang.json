@@ -1,0 +1,62 @@
+{
+  "candidate": "e9376a2565ee10fa7f9e5dad4b60242215f69f0fde57b27675de2a460bf92198",
+  "recipe": {
+    "stages": [
+      {
+        "family": "YangCNN",
+        "params": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "epochs": 300,
+          "seeds": [
+            42,
+            43,
+            44,
+            45,
+            46
+          ]
+        },
+        "input": "Raw8",
+        "mode": "direct",
+        "seed": 42
+      }
+    ],
+    "postprocess": "max(0,prediction)",
+    "semantics": "fixed_six_crossfit_v104",
+    "weight_policy": "equal_62m_area"
+  },
+  "dataset": "6d6f7b7ec7c5b16727576e27631685a0a964f66cbab8e4b986084d85c6ae9dc6",
+  "results": [
+    {
+      "oxide": "SiO2",
+      "mae": 1.5988334266542108,
+      "n": 25
+    },
+    {
+      "oxide": "Al2O3",
+      "mae": 3.015302975975554,
+      "n": 26
+    },
+    {
+      "oxide": "FeO",
+      "mae": 2.8743596383711956,
+      "n": 26
+    },
+    {
+      "oxide": "MgO",
+      "mae": 2.869007759217887,
+      "n": 26
+    },
+    {
+      "oxide": "CaO",
+      "mae": 1.3100374916619575,
+      "n": 26
+    },
+    {
+      "oxide": "TiO2",
+      "mae": 0.8882176326223004,
+      "n": 26
+    }
+  ],
+  "source": "Historical CPU candidate, 2026-11-03"
+}

@@ -1,0 +1,55 @@
+{
+  "job_id": "243ccd808be040a2a9a2ca1ea44b639e",
+  "map_completed_utc": "2026-11-16T14:00:51.117853+00:00",
+  "dataset_sha256": "6d6f7b7ec7c5b16727576e27631685a0a964f66cbab8e4b986084d85c6ae9dc6",
+  "source_app": "Lunar AutoLab Next 1.0.73 numerical modules and CCD80 frozen artifacts",
+  "archived_validation_record_sha256": "4353194b31687edf12ce109870810893572f2b98342c45f2373c1649ac55580e",
+  "selection_report_sha256": "f32cd431e6b2c0c98ee132f740fe0d66abffc485e6e4173081480b4c8dffa716",
+  "module_hashes": {
+    "models.py": "0e4ce44fb76641872868aa0a996b38c203864c167584e5297734ce400b95cac4",
+    "data.py": "7dce796aa5f84281cdef8343b346f5a970a724a93b9104deb502ee45a83887d0",
+    "ext_inputs.py": "e10e4b2597877f33e32e1bb8b039cdbaef47ea0754112e98d50e1e48efe43e53",
+    "ext_estimators.py": "c9f386c1600ef3461d264b216dc3eb39460028a4b2fa05ae4deffd4c8b2ee6a4",
+    "ext_torch.py": "ea30694074dc15fd26441b90b4d6dbfd28195ea959d7ffe6eeb0002b8bdb8a62",
+    "ext_joint_rank.py": "b0e5f84d2275de0a5d077f6794da39c0d465d5523ee07d442cffb71931f23b74",
+    "ext_variants.py": "2bad9eee7d1f7911bc185489c2d7cfc884984b2b57c1621104f959d5b5d1f22d",
+    "ext_neural.py": "390063052a4aeb3e640824d4eb505858827f8c43f2ce99ac8d78ce4920bbd886",
+    "ext_rank.py": "c98cea44c87b80e617683605d53b6fd59af75f5e425876727ce05110a2f0a4b4",
+    "ext_spatial.py": "8201a38d1c2708f0480eed6626d12621e7aeb640ef7eec6f74be9fd21dbdab5a",
+    "performance_pipeline.py": "fd7a3a91e553994b6fa857fb7a9149e7f03e986dc358c75dd17761e8f92b4e7f",
+    "combination_pipeline114.py": "23e026ef8ac2f8bea1cd5f9f92c7a0f1765b31a351324d379ab7718016444f4b",
+    "ext_pipeline.py": "56ab52129f7134fb342d7155c3114044313c9f1deb80ac00c617414607342649",
+    "logdiff151.py": "586173522c21d47498b942162f8fff312a49bfc05f18ea0af8f0990ec5882634",
+    "ext_evidence.py": "0e0928db8dd3dfb2273cf719139c36894e8b010b3e3bcccb85607c29c593794d",
+    "ext_context_kernel.py": "f8a8d09135285f94c4254ceb066f5f97e4b3477ef30f0b23431512f8fc22db06",
+    "ext_masked_original.py": "cd3ed2932954da597e679ac3f36aa85a6935935d3ac3a55c726d907842ce0ae6",
+    "ext_historical_rank.py": "2a673cfc884446bc9a808e959803a5c44795bc2697b31628ace72ef6d4a1d316",
+    "ext_historical_pair.py": "78e05e5e37a0fabe60f87c850ed298ca8c146aa14826391a7466de29d1503630",
+    "region_score172.py": "320fb3438074a81c18732962166ceea840946f8a7ede8e1d1967cc17e32ecff4"
+  },
+  "source_roi_hashes": {
+    "ccd80_roi_r71708_c146216_2km.npz": "6cf16e4d1c6913b2b6fbefd5188f3eb7d9d6f575498198119a8f40073caca293",
+    "ccd80_roi_r38108_c170272_2km.npz": "d11b855e0910b26dab44a204a00720368c1dd2a4d5d3d95f630e7d2cd98bbf56",
+    "ccd80_roi_r32540_c62312_2km.npz": "df8ae63819d1942965a0467108e418810d31d7e6b994f5f9527e098130f1be15",
+    "ccd80_roi_r23324_c80912_2km.npz": "b2d56621cef55e6655a89592e7dc52023c4e06fb10c3f9a9e341beb9a8945453",
+    "ccd80_roi_r10972_c14864_2km.npz": "cef2a10f76305d1c8935bfa205a4866aabead6acf00303bcbfb1e92dccb5de0e"
+  },
+  "original_map_manifest_sha256": "01b81d3f8277fb11078a7965371bc071661bca2eb0f81f5bce12e527abc29e84",
+  "yang_archived_database_sha256": "dbed761156fe1726f6c737d30c21a6fbd939cdec362f077ea452a77afca702e4",
+  "yang_archived_path": "verification/gpu130/search_YangCNN_cpu/research.sqlite",
+  "yang_reported_environment": {
+    "cpu": "AMD Ryzen 9 7845HX",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.9.0+cpu",
+    "python": "3.12.14"
+  },
+  "portable_replay_environment": {
+    "processor": "Intel64 Family 6 Model 140 Stepping 1",
+    "platform": "Windows x64",
+    "python": "3.12.14",
+    "yang_software": "same NumPy, PyTorch and scikit-learn versions as archived CPU report",
+    "shi_software": "NumPy 2.3.5, PyTorch 2.14.1+cpu"
+  }
+}

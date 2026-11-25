@@ -1,0 +1,75 @@
+{
+  "schema": "CLASS_coordinate_cell_v1_144",
+  "dataset_sha256": "6d6f7b7ec7c5b16727576e27631685a0a964f66cbab8e4b986084d85c6ae9dc6",
+  "observations_sha256": "a5b8e510faf5da2db1f3653a84d631ab2255d6885d1e9b19278b441b7ec5e315",
+  "map_source_catalog_sha256": "cdc9e621b48f7a9d1cdb40db4e70f1d39aad6504fceb37bcadc7d9bf74c9499a",
+  "grid": "0.17578125 degree published CLASS cells; same floor indexing as map inference",
+  "mapping": {
+    "CLASS3": "296s first3",
+    "CLASS6": "296s first6",
+    "CLASS_96s_site": "96s first4"
+  },
+  "sources": [
+    {
+      "duration": "296s",
+      "ratio": "Mg_Al",
+      "sha256": "1519a7cb6c23e2a216e65d24f529a11cbe7e2347e95bfc65e913f1863a551295",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Mg_Al_combined.tiff"
+    },
+    {
+      "duration": "296s",
+      "ratio": "Al_Si",
+      "sha256": "35be38135593dae23ad825ab14a909759edc72c8731b0a06eaf6ed7e8c85be2e",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Al_Si_combined.tiff"
+    },
+    {
+      "duration": "296s",
+      "ratio": "Mg_Si",
+      "sha256": "8f815f8e5e4f0054797ca1931794ba33b64294a89953fa975a3e28ead0b28d35",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/Mg_Si_combined.tiff"
+    },
+    {
+      "duration": "296s",
+      "ratio": "FeL_Si",
+      "sha256": "61d5921edf620f5d73699c28457da370fb261ab916e91cff9518ee375a1d0294",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/FeL_Si_combined.tiff"
+    },
+    {
+      "duration": "296s",
+      "ratio": "CaKa_Si",
+      "sha256": "2b5c894f79cede876dc05b4f1ef989ae75857b53ef2b266529d12e027c395e2c",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/CaKa_Si_combined.tiff"
+    },
+    {
+      "duration": "296s",
+      "ratio": "O_Si",
+      "sha256": "61c16a90a3e76b1cecb30ca1789b023a5dcaca71d8c63310c9a7e0f34abcdc88",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/296s/O_Si_combined.tiff"
+    },
+    {
+      "duration": "96s",
+      "ratio": "Mg_Al",
+      "sha256": "30021c716096aadb197533121a20849836caa62fb9ae543b65906153e60cd3da",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Mg_Al_combined.tiff"
+    },
+    {
+      "duration": "96s",
+      "ratio": "Al_Si",
+      "sha256": "451ad1684c3de315d60131601f925e662ac227a9d6413e805b59fce60ba0c4a6",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Al_Si_combined.tiff"
+    },
+    {
+      "duration": "96s",
+      "ratio": "Mg_Si",
+      "sha256": "dcec4b4b3b56d5d3f15834b1100e2e17665aea5ec97f0b290d8ebc6145d9b76a",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/Mg_Si_combined.tiff"
+    },
+    {
+      "duration": "96s",
+      "ratio": "FeL_Si",
+      "sha256": "a28fe57af6625b47889aa831e0d6853ff673c022c9eb0a0fa2985bce828d94c4",
+      "url": "https://raw.githubusercontent.com/ravioli1369/selenomapper/7aa89781c3a4b4121e2f6363b27455ed7056cc16/maps/96s/FeL_Si_combined.tiff"
+    }
+  ],
+  "hash": "4d01c45f09d55f0e34f74d818b962daecd44111329b2fcbc446aa94c91849deb"
+}

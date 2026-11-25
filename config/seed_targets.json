@@ -1,0 +1,18 @@
+{
+  "MAE": {
+    "Al2O3": "41e2316060670b84f217cf15d6de4a6d3141af3f0a49b2d53aceada7dc22eb65",
+    "CaO": "3b63d26b8252d74dcb6b148e730eaa8cd3e5fa8d8f1bddd8fbb54eedd65156c8",
+    "FeO": "1ed1076ed1e4263e985d7ad4a3625421c9961ef3dfa8c05f60dd2ff63cd8b006",
+    "MgO": "fae3cffb8ac83abe8e0e92344b39422c6eca896318d45fb55255832037431a0b",
+    "SiO2": "1aea62a7ac50c5ebceb063657869b80c4d71d5eda234a48e27db8168a9106204",
+    "TiO2": "afd28d5fe2dc26f9ca96d899d5b77db8cfebf2bb7e0d616ebc792e6b2efddddb"
+  },
+  "RANK": {
+    "Al2O3": "ea583ebefeea648d84524ff24d83bbbd7b6a236740c0164adee0e686c9532937",
+    "CaO": "94e37f4f79aa07bd0a4994b60e1af26bde25ce89bd4024232fd340eecd3f0adf",
+    "FeO": "f572f2f67a299d4d19081ce7f266b4c0a8a536e6c5c6f572fafb3410e15f24e2",
+    "MgO": "521752886495550430a17ee0f8c85d27bd41a3513f6e91ad8e131dfa955af71b",
+    "SiO2": "f136f7ddf017d7cf8e5138df4ad285599f6cd46e91d185f3a467ea1223ad1d36",
+    "TiO2": "53a676dc24cc283ba8b9f3e3ed6be3224f5ad43d1a129d9b11a53eaf6be99ccd"
+  }
+}

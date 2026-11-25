@@ -1,0 +1,20 @@
+{
+  "app_version": "1.0.54",
+  "created": "2026-11-10T16:37:59.207530+00:00",
+  "dataset": "6d6f7b7ec7c5b16727576e27631685a0a964f66cbab8e4b986084d85c6ae9dc6",
+  "research": "06b15bc6-be28-4dd4-bb56-dd8c2c7f27d0",
+  "complete": 1614,
+  "folds": 475536,
+  "sha256": "6246f4d26bdf74cb6ee681f4d6941b71880e776830e088df68e6bedcda412e7e",
+  "snapshot_id": "60962d332a21435db61b43b652f1f349",
+  "latest_result_at_freeze": "2026-11-10T16:25:27.389680+00:00",
+  "research_events_after_freeze": 0,
+  "target_map_creation_utc": "2026-11-10T16:27:03.565404+00:00",
+  "status_counts": {
+    "complete": 1614,
+    "queued": 244,
+    "screened": 795
+  },
+  "eligible_scored_oxide_rows": 9684,
+  "probe_reference_sha256": "b2251b5f328986bfa0e2d5ff19a617c267009779ca0c007af697c296e27faf9f"
+}

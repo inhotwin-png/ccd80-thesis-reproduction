@@ -1,0 +1,30 @@
+{
+  "schema": 172,
+  "version": "regional_mean_area_quality_v1",
+  "radius_m": 2000.0,
+  "trim": 0.05,
+  "preliminary_valid": 0.8,
+  "final_valid": 0.9,
+  "source_checked_min": 0.95,
+  "suspect_max": 0.02,
+  "high_quantile": 0.95,
+  "quantile_resolution": 0.01,
+  "weights": {
+    "concentration": 0.4,
+    "area": 0.3,
+    "valid": 0.15,
+    "stability": 0.15
+  },
+  "observed_high_cap_quantile": 0.75,
+  "source_ratio_min": 0.6666666666666666,
+  "source_ratio_max": 1.5,
+  "source_signal_dn": 500,
+  "concentration": "area-weighted 5%-per-tail trimmed mean; all valid pixels, not high pixels only",
+  "connectivity": "4-neighbour; missing cells never bridged",
+  "scope": "Regional prediction priority, not a calibrated accuracy probability or confirmed resource",
+  "rank": "supplementary regional observations only; never reranks regional priority",
+  "thresholds": "Fixed recorded reference within oxide; initial heuristic, not established optimum",
+  "created": "2026-11-14T14:07:41.071065+00:00",
+  "original_manifest_sha256": "01b81d3f8277fb11078a7965371bc071661bca2eb0f81f5bce12e527abc29e84",
+  "preservation": "Existing map chunks, frozen models and study results unchanged"
+}

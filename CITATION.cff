@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the reproduction package for the CCD80 lunar composition study."
+title: "CCD80 reproduction package for Automated Model Selection and Mapping of Six Major Oxide Abundances on the Lunar Surface"
+authors:
+  - family-names: "Yoo"
+    given-names: "Inho"
+version: "1.0.0"
+date-released: 2026-11-26
+type: software
+repository-code: "https://github.com/inhotwin-png/ccd80-thesis-reproduction"
+url: "https://github.com/inhotwin-png/ccd80-thesis-reproduction/releases/tag/v1.0.0"

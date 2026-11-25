@@ -1,0 +1,5 @@
+# Attribution and use
+
+The author supplies the Lunar AutoLab numerical modules, reproduction scripts, settings and derived results so that readers can run and verify the accompanying thesis. Credit Inho Yoo and cite the version used. The sample measurements and orbital products have their own authors and distribution terms. The original publications, repositories and archive records are identified in [data/sources.csv](data/sources.csv) and [data/orbital_sources.json](data/orbital_sources.json).
+
+The ResDCNN architecture in [third_party/shi](third_party/shi) is distributed under the upstream MIT license included in that directory. Its source is [RLCM-DL at revision 3593146](https://github.com/zyyan-cc/RLCM-DL/tree/359314658f8fc343a3fcbd56c0ae10b469d779a1). The OneDCNN comparison follows the architecture described in Yang and colleagues’ [DL-IM repository](https://github.com/hszhaohs/DL-IM). The fixed FeO and TiO₂ equations are attributed to the original studies listed in the source table.

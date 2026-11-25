@@ -1,0 +1,135 @@
+{
+  "units": {
+    "MAE": "wt percentage points",
+    "predictions": "wt percent"
+  },
+  "one_site_folds_per_family": 48,
+  "results": [
+    {
+      "oxide": "SiO2",
+      "ccd80": {
+        "windows": 25,
+        "original_mae": 0.802363636243469,
+        "retrained_mae": 0.802363636243469,
+        "max_absolute_prediction_difference": 0.0
+      },
+      "yang": {
+        "windows": 25,
+        "original_mae": 1.5988334266542108,
+        "retrained_mae": 1.585269278704992,
+        "max_absolute_prediction_difference": 0.10601425170898438
+      },
+      "shi": {
+        "windows": 25,
+        "original_mae": 1.747726546762399,
+        "retrained_mae": 1.747726546762399,
+        "max_absolute_prediction_difference": 0.0
+      }
+    },
+    {
+      "oxide": "Al2O3",
+      "ccd80": {
+        "windows": 26,
+        "original_mae": 0.8657795613350152,
+        "retrained_mae": 0.8657795613350152,
+        "max_absolute_prediction_difference": 0.0
+      },
+      "yang": {
+        "windows": 26,
+        "original_mae": 3.0153029759755543,
+        "retrained_mae": 2.9980414341688197,
+        "max_absolute_prediction_difference": 0.20434188842773438
+      },
+      "shi": {
+        "windows": 26,
+        "original_mae": 2.877015655677196,
+        "retrained_mae": 2.877015655677196,
+        "max_absolute_prediction_difference": 0.0
+      }
+    },
+    {
+      "oxide": "FeO",
+      "ccd80": {
+        "windows": 26,
+        "original_mae": 0.5550559422550936,
+        "retrained_mae": 0.5550559422550936,
+        "max_absolute_prediction_difference": 0.0
+      },
+      "yang": {
+        "windows": 26,
+        "original_mae": 2.874359638371195,
+        "retrained_mae": 2.8991629919498116,
+        "max_absolute_prediction_difference": 0.3137321472167969
+      },
+      "shi": {
+        "windows": 26,
+        "original_mae": 2.6602377795994947,
+        "retrained_mae": 2.6602377795994947,
+        "max_absolute_prediction_difference": 0.0
+      }
+    },
+    {
+      "oxide": "MgO",
+      "ccd80": {
+        "windows": 26,
+        "original_mae": 0.7546212715908169,
+        "retrained_mae": 0.7546212715908169,
+        "max_absolute_prediction_difference": 0.0
+      },
+      "yang": {
+        "windows": 26,
+        "original_mae": 2.8690077592178875,
+        "retrained_mae": 2.876793120825757,
+        "max_absolute_prediction_difference": 0.12806224822998047
+      },
+      "shi": {
+        "windows": 26,
+        "original_mae": 3.145227901628822,
+        "retrained_mae": 3.145227901628822,
+        "max_absolute_prediction_difference": 0.0
+      }
+    },
+    {
+      "oxide": "CaO",
+      "ccd80": {
+        "windows": 26,
+        "original_mae": 0.3742349399838386,
+        "retrained_mae": 0.3742349399838386,
+        "max_absolute_prediction_difference": 0.0
+      },
+      "yang": {
+        "windows": 26,
+        "original_mae": 1.3100374916619577,
+        "retrained_mae": 1.2786800565822363,
+        "max_absolute_prediction_difference": 0.23096084594726562
+      },
+      "shi": {
+        "windows": 26,
+        "original_mae": 1.0019854790282023,
+        "retrained_mae": 1.0019854790282023,
+        "max_absolute_prediction_difference": 0.0
+      }
+    },
+    {
+      "oxide": "TiO2",
+      "ccd80": {
+        "windows": 26,
+        "original_mae": 0.5460401066805116,
+        "retrained_mae": 0.5461316498204268,
+        "max_absolute_prediction_difference": 0.0012642511840832427
+      },
+      "yang": {
+        "windows": 26,
+        "original_mae": 0.8882176326223004,
+        "retrained_mae": 0.8928925851067668,
+        "max_absolute_prediction_difference": 0.11579585075378418
+      },
+      "shi": {
+        "windows": 26,
+        "original_mae": 1.5571219567149175,
+        "retrained_mae": 1.5571219567149175,
+        "max_absolute_prediction_difference": 0.0
+      }
+    }
+  ]
+}
